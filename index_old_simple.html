@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>CORNER — Coming Soon</title>
+    <meta name="description" content="CORNER — Something huge is being built. Join the waitlist." />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <div class="page-wrap">
+      <header class="site-header">
+        <div class="logo-wrap">
+          <img src="/ASSET/CORNEROFFICIALLOGO.png" alt="Corner logo" class="logo" />
+        </div>
+        <nav class="nav-actions">
+          <a class="nav-link" href="#about">About</a>
+          <button class="btn ghost" id="notifyTopBtn">Notify me</button>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="hero-inner">
+            <div class="hero-left">
+              <h1 class="title">Something huge is being built.</h1>
+              <p class="subtitle">CORNER — the first full‑stack digital ecosystem built exclusively for combat sports. Think Instagram + LinkedIn + Smoothcomp + Kayyo — but for fighters.</p>
+
+              <form name="notify" method="POST" data-netlify="true" class="notify-form" id="notifyForm">
+                <input type="hidden" name="form-name" value="notify" />
+                <input class="input" type="email" name="email" placeholder="Your email — get notified" required />
+                <button class="btn primary" type="submit">Notify When Live</button>
+              </form>
+
+              <p class="micro">No spam — only big energy. Join the list.</p>
+            </div>
+            <div class="hero-right">
+              <div class="banner-card" id="floatCard">
+                <img src="/ASSET/VISTAPRINT-removebg-preview.png" alt="Banner" />
+              </div>
+            </div>
+          </div>
+
+          <div class="wave anim" aria-hidden="true"></div>
+        </section>
+
+        <section class="about" id="about">
+          <div class="about-content">
+            <h2 class="section-title">What is CORNER?</h2>
+            <p class="lead">CORNER is the first full‑stack digital ecosystem built exclusively for combat sports — for athletes, coaches, gyms, brands, and future fighters. Starting in India. Built for the world.</p>
+
+            <div class="simple-grid">
+              <div class="simple-card anim">
+                <div class="icon">⚔️</div>
+                <h3>The Problem</h3>
+                <p>Athletes have no clear path to grow or earn. Coaches can't monetise their knowledge. Brands can't find real, verified talent. The entire combat sports industry is unorganised.</p>
+              </div>
+
+              <div class="simple-card anim">
+                <div class="icon">⚡</div>
+                <h3>Our Solution</h3>
+                <p>One platform. Three account types (Athletes, Coaches, Brands). Verified portfolios, social feed, brand deals, AI training, and community — all tightly integrated. Built for fighters, by a fighter.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="notify-section" id="notify">
+          <div class="notify-inner">
+            <h2 class="section-title">Join the first wave</h2>
+            <p>We're building in public. Get notified when CORNER launches — exclusive early access for the community.</p>
+
+            <form name="notify-2" method="POST" data-netlify="true" class="notify-form large" id="notifyForm2">
+              <input type="hidden" name="form-name" value="notify-2" />
+              <input class="input" type="text" name="name" placeholder="Your name" />
+              <input class="input" type="email" name="email" placeholder="Email address" required />
+              <button class="btn primary" type="submit">Notify Me</button>
+            </form>
+
+            <p class="tiny">We might send a 1–2 launch updates only.</p>
+          </div>
+        </section>
+
+      </main>
+
+      <footer class="site-footer">
+        <div class="footer-inner">
+          <div class="left">© <strong>CORNER</strong> 2025 — Built by a 19-year-old fighter who lived the problem</div>
+          <div class="right">
+            <img src="/ASSET/CORNER LOGO PROTO 2.png" alt="proto" class="logo-small" />
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- subtle floating particles for energy -->
+    <canvas id="particles"></canvas>
+
+    <button id="stickyNotify" aria-label="Notify when live" title="Notify me" class="sticky-notify">
+      🔔 Notify
+    </button>
+
+  </body>
+</html>

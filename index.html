@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>CORNER — Built Different</title>
+    <meta name="description" content="The digital ecosystem for combat sports. Athletes. Coaches. Brands. All in one place." />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800;900&family=Space+Grotesk:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <!-- Custom cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <div class="page-wrap">
+      <!-- Header -->
+      <header class="site-header">
+        <div class="logo-wrap">
+          <img src="/ASSET/CORNEROFFICIALLOGO.png" alt="Corner logo" class="logo" />
+        </div>
+        <nav class="nav-actions">
+          <a class="nav-link" href="#about">About</a>
+          <a class="nav-link" href="#vision">Vision</a>
+          <button class="btn-glow" id="notifyTopBtn">
+            <span>Notify me</span>
+            <div class="btn-glow-effect"></div>
+          </button>
+        </nav>
+      </header>
+
+      <main>
+        <!-- HERO SECTION -->
+        <section class="hero">
+          <div class="hero-bg"></div>
+          
+          <div class="hero-inner">
+            <div class="hero-left">
+              <div class="badge">
+                <span class="badge-dot"></span>
+                Building in public
+              </div>
+
+              <h1 class="title glitch" data-text="CORNER">
+                <span class="title-word">Something</span>
+                <span class="title-word">huge</span>
+                <span class="title-word">is being</span>
+                <span class="title-word highlight">built.</span>
+              </h1>
+
+              <p class="subtitle">
+                CORNER is the world's first athlete only digital ecosystem for combat sports.
+                A full-stack platform for social networking, verified portfolios, pre-set interval timers, AI leveraging, and movement analytics. <span class="text-glow">built for fighters.</span>
+              </p>
+
+              <form name="notify" method="POST" data-netlify="true" class="notify-form" id="notifyForm">
+                <input type="hidden" name="form-name" value="notify" />
+                <div class="form-row">
+                  <input class="input-glow" type="email" name="email" placeholder="your@email.com" required />
+                  <button class="btn-primary" type="submit">
+                    <span>Get Early Access</span>
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                      <path d="M4 10h12m-5-5l5 5-5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                  </button>
+                </div>
+              </form>
+
+              <p class="micro">No spam. Only launch updates. 🔥</p>
+            </div>
+
+            <div class="hero-right">
+              <div class="banner-card" id="floatCard">
+                <div class="card-glow"></div>
+                <img src="/ASSET/VISTAPRINT-removebg-preview.png" alt="Banner" />
+              </div>
+            </div>
+          </div>
+
+          <div class="scroll-indicator">
+            <div class="scroll-mouse"></div>
+            <span>Scroll</span>
+          </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about" id="about">
+          <div class="section-inner">
+            <div class="section-tag">What is CORNER</div>
+            
+            <h2 class="section-title">
+              THE <span class="text-gradient">FULL STACK</span>
+            </h2>
+
+            <p class="section-lead">
+              CORNER is the first end-to-end digital ecosystem built exclusively for combat sports. uniting athletes, coaches, gyms, brands, and future fighters on one platform.
+              <span class="text-glow">Born in India. Built for the world.</span>
+            </p>
+
+            <div class="stats-grid">
+              <div class="stat-card">
+                <div class="stat-icon">🥊</div>
+                <div class="stat-number">3</div>
+                <div class="stat-label">Account Types</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-icon">⚡</div>
+                <div class="stat-number">∞</div>
+                <div class="stat-label">Possibilities</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-icon">🌍</div>
+                <div class="stat-number">1</div>
+                <div class="stat-label">Platform</div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- PROBLEM SECTION -->
+        <section class="problem-section">
+          <div class="section-inner">
+            <div class="section-tag">The problem</div>
+            
+            <h2 class="section-title">
+              WHAT'S <span class="text-gradient">BROKEN</span>
+            </h2>
+
+            <p class="section-lead">
+              Combat sports is exploding but the infrastructure hasn't kept up.
+              Athletes lack structure and earning opportunities.
+              Coaches can't monetise their knowledge.
+              Brands can't find verified, real talent.
+              <span class="text-glow">The entire industry operates in silos, unorganised and offline.</span>
+            </p>
+
+            <div class="problem-grid">
+              <div class="problem-card">
+                <div class="problem-icon">🥊</div>
+                <h3>Athletes</h3>
+                <p>No structure • No visibility • No stable income</p>
+                <div class="card-shine"></div>
+              </div>
+
+              <div class="problem-card">
+                <div class="problem-icon">🎯</div>
+                <h3>Coaches</h3>
+                <p>Unorganised students • No digital platform • Limited monetisation</p>
+                <div class="card-shine"></div>
+              </div>
+
+              <div class="problem-card">
+                <div class="problem-icon">🏢</div>
+                <h3>Brands</h3>
+                <p>Fake followers • Unclear results • No access to verified athletes</p>
+                <div class="card-shine"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- SOLUTION SECTION -->
+        <section class="solution-section">
+          <div class="section-inner">
+            <div class="section-tag">The solution</div>
+            
+            <h2 class="section-title">
+              ONE PLATFORM. THREE ROLES. <span class="text-gradient">ONE ECOSYSTEM.</span>
+            </h2>
+
+            <p class="section-lead">
+              Verified athlete profiles, social feed, AI training, brand partnerships, and a connected community. all in one unified platform.
+              <span class="text-glow">Built for fighters, by a fighter.</span>
+            </p>
+
+            <div class="solution-grid">
+              <div class="solution-card">
+                <div class="solution-number">01</div>
+                <h3>For Athletes</h3>
+                <p>Build verified portfolios. Showcase your journey.
+                Get brand deals, training data, and AI-powered insights.</p>
+                <div class="card-border"></div>
+              </div>
+
+              <div class="solution-card">
+                <div class="solution-number">02</div>
+                <h3>For Coaches</h3>
+                <p>Monetise your knowledge. Sell training content.
+                Reach athletes nationwide and grow your influence.</p>
+                <div class="card-border"></div>
+              </div>
+
+              <div class="solution-card">
+                <div class="solution-number">03</div>
+                <h3>For Brands</h3>
+                <p>Discover real fighters. Run clean, trackable campaigns.
+                Pay safely. Measure results. No fake numbers.</p>
+                <div class="card-border"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- VISION SECTION -->
+        <section class="vision-section" id="vision">
+          <div class="section-inner">
+            <div class="vision-content">
+              <div class="section-tag">Our vision</div>
+              
+              <h2 class="vision-title">
+                To build the <span class="text-gradient">global digital home</span> for combat sports.
+              </h2>
+
+              <p class="vision-text">
+                A connected ecosystem where athletes rise, coaches earn, brands win, and beginners enter the sport the right way.
+                Where the industry becomes <span class="text-glow">structured, measurable, and monetised.</span>
+              </p>
+
+              <div class="vision-stats">
+                <div class="vision-stat">
+                  <div class="vision-stat-title">India first.</div>
+                  <div class="vision-stat-desc">Then Asia.<br>Then the world.</div>
+                </div>
+                <div class="vision-stat">
+                  <div class="vision-stat-title">Multi-revenue</div>
+                  <div class="vision-stat-desc">Subscriptions • Commissions • B2B SaaS</div>
+                </div>
+                <div class="vision-stat">
+                  <div class="vision-stat-title">Scale</div>
+                  <div class="vision-stat-desc">A multi-stakeholder platform with unicorn-level potential.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- NOTIFY SECTION -->
+        <section class="notify-section" id="notify">
+          <div class="notify-inner">
+            <div class="notify-card">
+              <div class="notify-glow"></div>
+              
+              <h2 class="notify-title">
+                Join the <span class="text-gradient">first wave</span>
+              </h2>
+              
+              <p class="notify-subtitle">
+                We're building in public. Get notified when CORNER launches — exclusive early access for the community.
+              </p>
+
+              <form name="notify-2" method="POST" data-netlify="true" class="notify-form-large" id="notifyForm2">
+                <input type="hidden" name="form-name" value="notify-2" />
+                <div class="form-grid">
+                  <input class="input-large" type="text" name="name" placeholder="Your name" />
+                  <input class="input-large" type="email" name="email" placeholder="your@email.com" required />
+                </div>
+                <button class="btn-submit" type="submit">
+                  <span>Count me in</span>
+                  <span class="btn-arrow">→</span>
+                </button>
+              </form>
+
+              <p class="notify-footer">
+                Limited early access. No spam. <span class="text-glow">Real impact.</span>
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!-- FOOTER -->
+      <footer class="site-footer">
+        <div class="footer-inner">
+          <!-- Left Side: Founder Block -->
+          <div class="footer-left">
+            <div class="founder-block">
+              <h3 class="founder-title">ABOUT THE FOUNDER</h3>
+              <p class="founder-bio">
+                I'm Nikhil Marathe, a 19 year old Gen-Z solo founder building CORNER from the ground up.
+                No big team. No funding. Just obsession, discipline, and a fighter's mentality.
+              </p>
+              <p class="founder-mission">
+                I'm building CORNER because the combat sports world deserves the structure I never had and I'm willing to give my life to make it real.
+              </p>
+              <div class="founder-profile">
+                <div class="founder-avatar">
+                  <img src="/ASSET/PFP.png" alt="Nikhil Marathe" class="avatar-img" />
+                </div>
+                <div class="founder-info">
+                  <div class="founder-name">Nikhil Marathe</div>
+                  <div class="founder-role">Founder & CEO, CORNER</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Side: Company + Legal Block -->
+          <div class="footer-right">
+            <div class="company-block">
+              <div class="company-header">
+                <h3>CORNER</h3>
+                <img src="/ASSET/CORNEROFFICIALLOGO.png" alt="CORNER logo" class="company-logo-small" />
+              </div>
+              
+              <div class="company-info">
+                <div class="info-section">
+                  <h4>Current Status</h4>
+                  <p>CORNER is currently operating under a sole proprietorship, with plans to transition into a registered firm as the platform scales.</p>
+                </div>
+                
+                <div class="info-section">
+                  <h4>Office</h4>
+                  <p>A-41, Freedom Fighter Colony<br>Saket, South Delhi — 110068</p>
+                </div>
+                
+                <div class="info-section">
+                  <h4>Connect with Me</h4>
+                  <div class="social-links">
+                    <a href="https://www.instagram.com/evrythingwnik?igsh=MTJyNWJyYjdjdDY1ag%3D%3D&utm_source=qr" target="_blank" rel="noopener" class="social-btn" aria-label="Instagram">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" fill="currentColor"/>
+                      </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/nikhil-marathe-617483386/" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" fill="currentColor"/>
+                      </svg>
+                    </a>
+                    <a href="mailto:connectwnik@gmail.com" class="social-btn" aria-label="Email">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/>
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Particles canvas -->
+    <canvas id="particles"></canvas>
+
+    <!-- Noise overlay -->
+    <div class="noise"></div>
+  </body>
+</html>
