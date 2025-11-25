@@ -959,6 +959,11 @@ section {
   opacity: 0.8;
 }
 
+.company-logo-main {
+  height: 32px;
+  opacity: 0.9;
+}
+
 .company-info {
   display: flex;
   flex-direction: column;
