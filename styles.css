@@ -852,7 +852,7 @@ section {
   letter-spacing: 2px;
   color: var(--accent);
   text-transform: uppercase;
-  margin-bottom: 4px;
+  margin-bottom: 20px;
 }
 
 .founder-bio {
@@ -941,10 +941,12 @@ section {
 
 .company-header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 12px;
-  padding-bottom: 16px;
+  padding-bottom: 8px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  justify-content: flex-start;
+  margin-top: 0;
 }
 
 .company-header h3 {
@@ -960,7 +962,7 @@ section {
 }
 
 .company-logo-main {
-  height: 32px;
+  height: 100px !important;
   opacity: 0.9;
 }
 
